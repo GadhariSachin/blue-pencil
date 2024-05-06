@@ -22,7 +22,7 @@ function Header() {
   return (
     <>
       <div className="md:block hidden">
-        <div className="flex h-[100px] justify-between items-center mx-[120px]">
+        <div className="flex h-[100px] justify-between items-center mx-[40px] lg:mx-[120px]">
           <div className="flex gap-[40px] z-[2]">
             {LINKS.map((linkItem, index) => (
               <Link

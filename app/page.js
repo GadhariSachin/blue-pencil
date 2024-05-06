@@ -6,7 +6,7 @@ import { SECTIONS } from "./utils/constants";
 export default function Home() {
   return (
     <main className="">
-      <HeroSection data={'Hero Section'}/>
+      <HeroSection />
       <FeatureSection />
       {
         SECTIONS.map((section, index) => <ColumLayout key={`section-${index}`} data={section}/>)
