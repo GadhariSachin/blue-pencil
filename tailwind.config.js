@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "var(--primary)",
+        muted: "var(--muted)",
+        logoBg: "var(--logoBg)",
       }
     },
   },
