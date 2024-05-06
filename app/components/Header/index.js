@@ -8,21 +8,8 @@ import MenuOpenOutlinedIcon from "@mui/icons-material/MenuOpenOutlined";
 
 import OutsideClickHandler from "react-outside-click-handler";
 import { Button, Logo } from "../common";
+import { LINKS } from "@/app/utils/constants";
 
-const LINKS = [
-  {
-    text: "Home",
-    link: "/",
-  },
-  {
-    text: "About",
-    link: "/",
-  },
-  {
-    text: "Contact",
-    link: "/",
-  },
-];
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
