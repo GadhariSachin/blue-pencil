@@ -13,6 +13,7 @@ module.exports = {
         logoBg: "var(--logoBg)",
         disabled: "var(--disabled)",
         headingBg: "var(--headingBg)",
+        priceTextBg: "var(--priceTextBg)"
       }
     },
   },
