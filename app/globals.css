@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --primary: rgba(17, 27, 71, 1);
+
 }
 
+/* modifiers in case of dark theme mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --primary: rgba(17, 27, 71, 1);
   }
 }
 
@@ -22,3 +24,15 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Button Variants CSS */
+@layer components {
+  .btn-dark {
+    @apply bg-primary text-white text-base font-medium text-center leading-5 w-[189px] h-[36px] rounded-sm hover:scale-105 transition-all;
+  }
+
+  .btn-outlined {
+    @apply bg-white text-primary border-2 border-primary text-base font-medium text-center leading-5 w-[189px] h-[36px] rounded-sm hover:scale-105 transition-all; 
+  }
+}
+
