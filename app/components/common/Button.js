@@ -6,9 +6,9 @@ import React from 'react'
   Button Variants - dark/outlined
 */ 
 
-function Button({ classes = "btn-dark", onClickHandler = () => {}, children }) {
+function Button({ variant = "btn-dark", classes="", onClickHandler = () => {}, children }) {
   return (
-    <button className={classes} onClick={onClickHandler}>
+    <button className={`${variant} ${classes}`} onClick={onClickHandler}>
       {children}
     </button>
   );

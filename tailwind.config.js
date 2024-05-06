@@ -11,7 +11,8 @@ module.exports = {
         primary: "var(--primary)",
         muted: "var(--muted)",
         logoBg: "var(--logoBg)",
-        disabled: "var(--disabled)"
+        disabled: "var(--disabled)",
+        headingBg: "var(--headingBg)",
       }
     },
   },

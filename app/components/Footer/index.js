@@ -20,7 +20,7 @@ function Footer(props) {
             <Logo />
           </div>
           <div className="order-3 lg:order-3 md:mt-0 mt-[20px]">
-            <Button classes="btn-dark">Purchase now</Button>
+            <Button variant="btn-dark">Purchase now</Button>
           </div>
         </div>
         <div className="border-bottom mb-[40px]"></div>
