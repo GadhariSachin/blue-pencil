@@ -43,3 +43,15 @@ export const SECTIONS = [
     }
   },
 ];
+
+
+export const CARDS = [
+  {
+    title: "Title Goes Here",
+    content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+  },
+  {
+    title: "Title Goes Here",
+    content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+  }
+]

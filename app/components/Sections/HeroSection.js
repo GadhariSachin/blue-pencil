@@ -34,7 +34,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="w-[1000px] h-[800px] absolute top-0 right-0 lg:block hidden">
+      <div className="w-[1000px] h-[80vh] absolute top-0 right-0 lg:block hidden">
         <Image src="/heroSectionBg.png" alt="Hero Image" width={1000} height={800} style={{
           height: "-webkit-fill-available"
         }}/>
